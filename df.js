@@ -413,7 +413,7 @@
   const _themes = [
     {key:"default", title:"Default theme"},
     {key:"paper", title:"Paper"},
-    // {key:"sepia", title:"Sepia"},
+    {key:"sepia", title:"Sepia"},
     {key:"midnight", title:"Midnight"},
     {key:"dark", title:"Dark"},
   ];

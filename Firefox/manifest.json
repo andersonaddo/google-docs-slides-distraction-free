@@ -1,8 +1,8 @@
 {
-  "name": "Distraction Free Mode — Google Docs & Slides",
+  "name": "Minimalist GDocs & GSlides [updated fork]",
   "description" : "The distraction free mode (▣) for Google Docs and Google Slides hides all controls and buttons and lets you focus on creation.",
   "homepage_url": "http://flowapps.co/distractionfree",
-  "author": "Flowapps.co",
+  "author": "Flowapps.co + HappyViking",
   "version": "2.2.0",
   "icons": {
     "16": "img/icon-16.png",
@@ -12,6 +12,11 @@
     "128": "img/icon-128.png",
     "256": "img/icon-256.png"
   },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "gdocsdistractionfree@happyviking.com"
+    }
+  },  
   "manifest_version": 3,
   "background": {
     "scripts": ["firefox-bg.js"]
