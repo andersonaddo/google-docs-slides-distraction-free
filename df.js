@@ -433,7 +433,7 @@
   _styleElement.innerText = _css;
 
   var _toolbarButtonContainer = document.createElement("div");
-  _toolbarButtonContainer.className = "goog-inline-block";
+  _toolbarButtonContainer.classList = "docs-titlebar-badge-container goog-inline-block";
 
   var _menuButtonElement = document.createElement("button");
   _menuButtonElement.id = "df-menu-button"
@@ -474,12 +474,12 @@
   _enterModeButton.style = `
     background: transparent;
     border: 0;
-    font-size: 22px;
+    font-size: 18px;
     opacity: 0.8;
     color: #737373;
     cursor: pointer;
   `;
-  _enterModeButton.className = "goog-inline-block"
+  _enterModeButton.className = "docs-titlebar-badge-container docs-folder-container goog-inline-block"
   _enterModeButton.innerText = "▣";
   _enterModeButton.dataset.tooltip = "Enter distraction free mode";
   _enterModeButton.addEventListener("mouseover", function() {
